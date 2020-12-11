@@ -1,6 +1,9 @@
 package main
 
+func hello() string {
+	return "Hello to Romén's Golang boilerplate project!"
+}
 
 func main() {
-	print("Hello to Romén's Golang boilerplate project!")
+	println(hello())
 }
